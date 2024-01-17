@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#left{
+    width: 40%;
+    height: 100%;
+    
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #f6f6ee;
+
+}
+#nav #link{
+display: flex;
+gap: 20px;
+
+}
+
+#link a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 500;
+}  
+ #nav h3 span{
+    font-weight: 600;
+ }
+
+
+#heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    background-color: #f6f6ee;
+    
+
+}
+#heading h1{
+font-family: playfair Display;
+
+}
+
+#heading p{
+    text-align: center;
+    margin: 20px 0px;
+width: 70%;
+
+}
+
+
+#heading button{
+    padding:12px 32px;
+    background-color:Black;
+    color: white;
+    border-radius: 100px;
+
+}
+
+#illus img{
+    width: 100%;
+    height: 372px;
+}
+    
+
+
+
+#lnav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+#right{
+    width: 60%;
+    height: 100%;
+    background-color: #75c32c;
+}
+
+#rtop{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: #7d5c0a;
+}
+
+#rbottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(./rbottom.PNG);
+    background-size: cover;
+    background-position: center;
+}
+
+#rtopleft{
+    width:55% ;
+    height:100%;
+    background-image: url(./rtlp.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#rtopright{
+    width:45% ;
+    height:100% ;
+    background-image: url(./rtrp.PNG);
+    background-size: cover;
+    background-position: center;
+
+
+}
